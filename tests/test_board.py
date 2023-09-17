@@ -62,7 +62,7 @@ def test_empty_board_to_string():
     assert expected == res
 
 
-def test_4x4_board_with_two_cell_to_string():
+def test_4x4_board_to_string():
     board = Board(4, 4)
     res = board.__str__()
     expected = ' | | | \n'\
@@ -72,7 +72,7 @@ def test_4x4_board_with_two_cell_to_string():
     assert expected == res
 
 
-def test_2x4_board__to_string():
+def test_2x4_board_to_string():
     board = Board(2, 4)
     res = board.__str__()
     expected = ' | | | \n'\
